@@ -3,14 +3,32 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FCM.Applications.Client", "Source\FCM.Applications.Client\FCM.Applications.Client.csproj", "{02272B8E-B0BF-4C50-A035-C410DBDBF9D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FCM.Applications.Client.Desktop", "Source\FCM.Applications.Client.Desktop\FCM.Applications.Client.Desktop.csproj", "{BA84216E-4205-4224-BA69-5ED578B4D7F5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Applications.Client", "Applications.Client", "{B33EA13E-F031-47E5-B0AC-A3B2A2871543}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{02272B8E-B0BF-4C50-A035-C410DBDBF9D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02272B8E-B0BF-4C50-A035-C410DBDBF9D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02272B8E-B0BF-4C50-A035-C410DBDBF9D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02272B8E-B0BF-4C50-A035-C410DBDBF9D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA84216E-4205-4224-BA69-5ED578B4D7F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA84216E-4205-4224-BA69-5ED578B4D7F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA84216E-4205-4224-BA69-5ED578B4D7F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA84216E-4205-4224-BA69-5ED578B4D7F5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{02272B8E-B0BF-4C50-A035-C410DBDBF9D3} = {B33EA13E-F031-47E5-B0AC-A3B2A2871543}
+		{BA84216E-4205-4224-BA69-5ED578B4D7F5} = {B33EA13E-F031-47E5-B0AC-A3B2A2871543}
 	EndGlobalSection
 EndGlobal
